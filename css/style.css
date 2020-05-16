@@ -1,0 +1,63 @@
+body { 
+    text-align: center; 
+    padding: 150px; 
+    background-color: #ff005f;
+}
+  h1 { 
+      font-size: 50pt; 
+      text-align: center;
+}
+
+
+
+  body { 
+      font-family: 'Inter', sans-serif;
+      color: black; 
+}
+  article { 
+      display: block; 
+      text-align: left; 
+      width: 650px; 
+      margin: 0 auto; 
+}
+  a { 
+      color: #dc8100; 
+      text-decoration: none; 
+}
+  a:hover { 
+      color: #333; 
+      text-decoration: none; 
+}
+
+#container {
+	text-align: center;
+    padding: 80px;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: black;
+	letter-spacing: 2px;
+    font-size: 50pt;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: black;
+	animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: black; 
+	}
+}
